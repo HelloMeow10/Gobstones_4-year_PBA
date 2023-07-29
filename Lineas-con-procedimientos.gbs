@@ -1,0 +1,18 @@
+program{//Lineas con procedimientos. Ult Modificacion:25-08-2022
+    Linearoja() //llama al procedimiento que coloca la linea roja
+    Mover(Norte)
+    Lineazul()//llama al procedimiento que coloca la linea azul
+}
+procedure Linearoja(){
+    repeat(3){
+        Poner(Rojo)
+        Mover(Este)}
+
+}
+procedure Lineazul(){
+    repeat(4){
+        Poner(Azul)
+        Mover(Este)
+    }
+
+}

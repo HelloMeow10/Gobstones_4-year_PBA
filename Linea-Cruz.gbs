@@ -1,0 +1,15 @@
+program{
+    Poner(Rojo)
+    repeat (4){
+        Mover(Norte)
+        Mover(Este)
+        Poner(Rojo)
+    }
+    IrAlBorde(Sur)
+    Poner(Azul)
+        repeat (4){
+        Mover(Norte)
+        Mover(Oeste)
+        Poner(Azul)
+    }
+}

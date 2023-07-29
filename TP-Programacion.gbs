@@ -1,0 +1,141 @@
+//29-09-2022 
+
+//1. Crear y guardar los tableros mostrando la figura 1 usando gobstones, junto con al menos tres tableros
+//con contenido aleatorio de ancho 20 y alto 30; los mismos seran usados en los proximos ejercicios.
+
+//2. Escribir un programa que ponga una bolita verde en la celda actual. Ejecutar el programa en cada uno de los
+//tableros del ejercicio 1, indicando si el efecto es el esperado
+
+//3. Escribir un programa que ponga una bolita de cada color en la celda actual. Ejecutar el programa en todos
+//los tableros del ejercicio 1 indicando si el efecto es el esperado. ¿Se leS ocurre otro programa que resuelva
+//el mismo problema?
+
+//4. Ejecutar los dos programas siguientes en cada uno de los tableros del ejercicio 1, anotando el efecto final
+//obtenido. ¿Nota alguna diferencia? Explique su respuesta
+
+//Program{
+    //Poner(Azul);
+    //Sacar(Azul);
+//}
+
+//Program{
+    //Poner(Azul);
+    //Sacar(Azul);
+//}
+
+//5. Ejecutar los dos programas siguientes en cada uno de los tableros del ejercicio 1, anotando el efecto final
+//obtenido. ¿Nota alguna diferencia? ¿Se le ocurre algun tablero en el que podrian definir los efectos finales?
+//Justificar.
+
+//Program{
+    //Poner(Azul);
+    //Sacar(Azul);
+//}
+
+//Program{
+    ////¿Sabias que el programa puede estar vacio?
+//}
+
+//6. Escribir un programa que ponga una bolita de color azul en la celda lindante al norte de la actual, dejando
+//el cabezal en la celda inicial 
+
+    //Sacar(Azul);
+//}
+
+//7. Los siguientes programas resuelven incorrectamente el ejercicio anterior. ¿Por que?. Comparar con su solucion
+//del ejercicio anterior.
+
+//Program{
+    //Mover(Norte);
+    //Poner(Azul);
+//}
+
+//Program{
+    //Poner(Azul);
+    //Mover(Este);
+    //Mover(Oeste);
+//}
+
+//8. 
+
+//Program{
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Mover(Sur)
+    
+    //Mover(Sur)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    
+    //Mover(Oeste)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Mover(Oeste)
+    
+    //Mover(Oeste)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Sur)
+    //Poner(Rojo)
+    //Mover(Norte)
+    //Poner(Rojo)
+    //Mover(Oeste)
+    
+    //Poner(Rojo)
+    //Mover(Este)
+    //Poner(Rojo)
+    //Mover(Este)
+    //Poner(Rojo)
+    //Mover(Este)
+    //Poner(Rojo)
+    //Mover(Este)
+    //Poner(Rojo)
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

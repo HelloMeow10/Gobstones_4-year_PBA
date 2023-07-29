@@ -1,0 +1,31 @@
+program{
+NorteRojo()
+EsteRojo()
+SurRojo()
+EsteRojo()
+NorteRojo()
+EsteRojo()
+SurRojo()
+EsteRojo()
+NorteRojo()
+Poner(Rojo)
+}
+
+procedure NorteRojo(){
+    repeat(4){
+        Poner(Rojo)
+        Mover(Norte)
+    }
+}
+
+procedure EsteRojo(){
+    Poner(Rojo)
+    Mover(Este)
+}
+
+procedure SurRojo(){
+    repeat(4){
+        Poner(Rojo)
+        Mover(Sur)
+    }
+}

@@ -1,0 +1,37 @@
+program{//Lineas negras con procedimientos. Ult Modificacion:25-08-2022
+    Lineanegrahorizontal() 
+    Lineanegravertical()
+    Lineados()
+    Lineatres()
+    Lineamedio()
+}
+procedure Lineanegravertical(){
+    repeat(4){
+        Poner(Negro)
+        Mover(Norte)}
+}
+procedure Lineanegrahorizontal(){
+    repeat(13){
+        Poner(Negro) 
+        Mover(Este)}
+}
+procedure Lineados(){
+    repeat(13){
+        Poner(Negro)
+        Mover(Oeste)}
+}
+procedure Lineatres(){
+    repeat(4){
+        Poner(Negro)
+        Mover(Sur)
+    }
+}
+procedure Lineamedio(){
+    repeat(4){
+        Mover(Este)
+    }
+    Mover(Norte)
+    repeat(3){
+        Poner(Negro)
+        Mover(Norte)}
+}
