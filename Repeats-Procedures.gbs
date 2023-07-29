@@ -1,0 +1,82 @@
+program{
+    Diagonal1()
+    LineaEste()
+    Diagonal1()
+    IrAlBorde(Sur)
+    Diagonal2()
+    LineaOeste()
+    Diagonal2()
+    IrAlBorde(Sur)
+    Diagonal3()
+    LineaEste()
+    Diagonal3()
+    IrAlBorde(Sur)
+    Diagonal4()
+    LineaOeste()
+    Diagonal4()
+    repeat (4){
+        Mover(Sur)
+    }
+    MedioRojo()
+    IrAlBorde(Oeste)
+    MedioAzul()
+}
+
+procedure Diagonal1(){
+        Poner(Rojo)
+    repeat (3){
+        Mover(Norte)
+        Mover(Este)
+        Poner(Rojo)
+    }
+}
+procedure Diagonal2(){
+    Poner(Rojo)
+        repeat (3){
+        Mover(Norte)
+        Mover(Oeste)
+        Poner(Rojo)
+    }
+}
+procedure Diagonal3(){
+    Poner(Verde)
+        repeat (3){
+        Mover(Norte)
+        Mover(Este)
+        Poner(Verde)
+    }
+}
+procedure Diagonal4(){
+    Poner(Verde)
+        repeat (3){
+        Mover(Norte)
+        Mover(Oeste)
+        Poner(Verde)
+        }
+}
+procedure LineaEste(){
+    Mover(Norte)
+    Mover(Este)
+    Mover(Norte)
+    Mover(Este)
+}
+procedure LineaOeste(){
+    Mover(Norte)
+    Mover(Oeste)
+    Mover(Norte)
+    Mover(Oeste)
+}
+procedure MedioRojo(){
+    Poner(Rojo)
+    repeat (8){
+        Mover(Este)
+        Poner(Rojo)
+    }
+}
+procedure MedioAzul(){
+    Poner(Azul)
+    repeat (8){
+        Mover(Este)
+        Poner(Azul)
+    }
+}
